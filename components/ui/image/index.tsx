@@ -16,6 +16,7 @@ const imageStyle = tva({
       'lg': 'h-24 w-24',
       'xl': 'h-32 w-32',
       '2xl': 'h-64 w-64',
+      '3xl': 'h-96 w-96',
       'full': 'h-full w-full',
       'none': '',
     },

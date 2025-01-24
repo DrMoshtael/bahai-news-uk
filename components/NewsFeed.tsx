@@ -6,8 +6,8 @@ import { Heading } from "./ui/heading"
 import { Box } from "./ui/box"
 import { Image } from "./ui/image"
 import { Text } from "./ui/text"
-import { Avatar, AvatarFallbackText } from "./ui/avatar"
-import { Button, ButtonIcon, ButtonText } from "./ui/button"
+// import { Avatar, AvatarFallbackText } from "./ui/avatar"
+// import { Button, ButtonIcon, ButtonText } from "./ui/button"
 import { isWeb } from "@gluestack-ui/nativewind-utils/IsWeb"
 
 import { ScrollView } from "react-native"
@@ -48,7 +48,7 @@ const NewsFeed = () => {
                       <Image
                         size="full"
                         source={item.bannerUri}
-                        alt={item.bannerUri}
+                        alt={item.title}
                         resizeMode="cover"
                       />
                     </Box>
